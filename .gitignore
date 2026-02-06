@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / compressed files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Generators
+*.cover
+*.pylass
+nosetests.xml
+coverage.xml
+*.log
+.tox/
+.coverage
+
+# IDEs and editors
+.idea/  # popular for PyCharm
+.vscode/ # popular for VS Code
+*.swp
+*~
+.sess/
+
+# OS-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Ruff cache
+.ruff_cache/
+
+# Docker
+!Dockerfile
+!.dockerignore
